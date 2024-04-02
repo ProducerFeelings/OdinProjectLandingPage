@@ -1,0 +1,177 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    background-color: #1F2937;
+}
+
+h1 {
+    color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+ul ,li {
+    color: white;
+    list-style: none;
+    float: left;
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 90px;
+    margin-top: -16px;
+}
+
+h2 {
+    color: white;
+    font-size: 48px;
+    margin-bottom: -10px;
+}
+
+#awesome {
+    color: white;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #3882F6;
+    color: white ;
+}
+
+.gray-container {
+            width: 350px; /* Set the width of the container */
+            height: 100px; /* Set the height of the container */
+            background-color: gray; /* Set the background color to gray */
+            border: 1px solid #888; /* Add a border for the container */
+            padding: 20px; /* Add padding inside the container */
+            float: right;
+            margin-right: 220px;
+            margin-top: -230px;
+}
+
+h3 {
+    font-size: 36px;
+    display: flex;
+    justify-content:center;
+}
+
+.white-section {
+    background-color: white;
+    padding: 20px;
+}
+
+
+.white-section {
+    min-height: 100%;
+    box-sizing: border-box;
+    padding-bottom: 500px; /* Adjust this value as needed to create space for the footer */
+}
+
+
+.square {
+    width: 100px; /* Set the width of the squares */
+    height: 100px; /* Set the height of the squares */
+    background-color: white; /* Set the background color of the squares */
+    display: inline-block; /* Display squares in a row */
+    margin: 10px; /* Add margin to separate squares */
+    border: 2px solid blue; /* Set the border to blue */
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.squares-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20ppx;
+}
+
+
+footer.blue-footer {
+    background-color: #1F2937;
+    justify-content: center;
+    display: flex;
+    color: #fff;
+    height: 70px;
+    
+}
+
+.gray-section {
+    background-color: lightgray;
+    padding: 100px 27% 100px 22%;
+    
+    width: 100%;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+
+
+#graytextquote {
+    font-style: italic;
+    color: #1F2937;
+    display: flex;
+    font-size: 36px;
+}
+
+#Boldtextquote {
+    text-align: right;
+    font-weight: bold;
+}
+
+.blue-area {
+    padding: 1%;
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    border border-radius: 8px ;
+}
+
+#calltoaction {
+    color: white;
+    display: flex;
+    justify-content:  left
+
+    
+}
+
+#signup {
+    color: white;
+   
+}
+
+#signup-button {
+padding: 50px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+.totheright {
+    padding: 10px 200px;
+}
+
+
+.squaretext {
+    text-align: center;
+    text-wrap: wrap;
+    
+}
